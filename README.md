@@ -16,7 +16,7 @@ This repository contains a comprehensive implementation of sentiment analysis on
 ## Installation
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/sentiment-analysis.git
+git clone https://github.com/sarvkk/sentiment-analysis.git
 cd sentiment-analysis
 
 # Install dependencies
@@ -45,7 +45,7 @@ Open and run the SentimentAnalysis.ipynb notebook to:
 - `app.py` - Flask web application
 - `b2_preprocessing_function.py` - Text preprocessing utilities
 - `b3_tokenizer.json` - Saved tokenizer for input processing
-- `c1_lstm_model_acc_0.865.h5` - Pre-trained LSTM model
+- `lstm_model.h5` - Pre-trained LSTM model
 - `c2_IMDb_Unseen_Predictions.csv` - Sample predictions on unseen data
 
 ## Requirements
