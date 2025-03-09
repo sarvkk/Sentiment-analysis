@@ -1,0 +1,56 @@
+# Assets directory - ignore all except model and tokenizer
+assets/*
+!assets/lstm_model.h5
+!assets/tokenizer.json
+
+# Environment and cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+.env
+.venv
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Logs
+*.log
+
+# Jupyter notebook
+.ipynb_checkpoints
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Large files and datasets
+a2_glove.6B.100d.txt
+c1_lstm_model_acc_0.859.h5
+c1_lstm_model_acc_0.864.h5
+c1_lstm_model_acc_0.865.h5
+ipynb/a1_IMDB_Dataset.csv
+a1_IMDB_Dataset.csv
+
+# OS specific
+.DS_Store
+Thumbs.db
